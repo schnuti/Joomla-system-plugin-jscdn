@@ -40,7 +40,9 @@
   				      </fieldset>
 			</field>
 				<field name="backend"
-					type="list"
+					type="radio"
+					class="btn-group"
+					default="0"
 					description="PLG_SYSTEM_JSCDN_FIELD_BACKEND_DESC"
 					label="PLG_SYSTEM_JSCDN_FIELD_BACKEND_LABEL">
 					<option value="0">JNO</option>
