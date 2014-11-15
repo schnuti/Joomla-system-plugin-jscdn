@@ -6,7 +6,7 @@
 	<copyright>Copyright (C) 2014 Ove Eriksson.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorUrl>https://github.com/schnuti/Joomla-system-plugin-jscdn</authorUrl>
-	<version>3.0.0</version>
+	<version>1.0.0</version>
 	<description>PLG_SYSTEM_JSCDN_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="jscdn">jscdn.php</filename>
