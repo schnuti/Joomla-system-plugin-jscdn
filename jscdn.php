@@ -26,7 +26,7 @@ class PlgSystemJscdn extends JPlugin
 		
 		$document = JFactory::getDocument();
 		
-		if (( !(int)$this->params->get('backend',0)) || $document->getType() !== 'html' )
+		if (( !$app->isSite() && ( !(int)$this->params->get('backend',0))) || $document->getType() !== 'html' )
 		{
 			return;
 		}
